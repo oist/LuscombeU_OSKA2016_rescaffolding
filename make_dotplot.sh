@@ -16,7 +16,7 @@ mkFASTA () {
   sed -i "1s/.*/>$1/" $1.fa
 }
 
-rm oskaV2.bed
+rm -f oskaV2.bed
 
 for chr in Chr1 Chr2 PAR XSR YSR
 do
