@@ -28,20 +28,16 @@ VERSION=V15
 
 mkdir /work/LuscombeU/Oikopleura/Genomes/Oska$VERSION
 
-srun seqret @oskaV2.usa /work/LuscombeU/Oikopleura/Genomes/Oska$VERSION/oska$VERSION.fa
+srun seqret @oskaV2.usa /work/LuscombeU/Oikopleura/Genomes/Oska$VERSION/Oska$VERSION.fa
 srun indexGenome.py -g Oska$VERSION
+cp ~/OSKA_superscaffolding/oskaV2.bed /work/LuscombeU/Oikopleura/Genomes/Oska$VERSION/
 
 alignTo () {
   sbatch mkDotPlot.py -x Oska$VERSION -y $1 \
-    --dotplot-options='--bed1=~/OSKA_superscaffolding/oskaV2.bed'
+    --dotplot-options="--bed1=/work/LuscombeU/Oikopleura/Genomes/Oska$VERSION/oskaV2.bed"
 }
 
 for genome in I69-4 Norway OSK42-1f AOM-5-1f O9-5f O3-3f B-2-1f
-
-sbatch mkDotPlot.py -x Oska$VERSION -y O3-1f  --dotplot-options='--bed1=~/OSKA_superscaffolding/oskaV2.bed'
-sbatch mkDotPlot.py -x Oska$VERSION -y I69-4  --dotplot-options='--bed1=~/OSKA_superscaffolding/oskaV2.bed'
-sbatch mkDotPlot.py -x Oska$VERSION -y Norway  --dotplot-options='--bed1=~/OSKA_superscaffolding/oskaV2.bed'
-sbatch mkDotPlot.py -x Oska$VERSION -y OSK42-1f  --dotplot-options='--bed1=~/OSKA_superscaffolding/oskaV2.bed'
-sbatch mkDotPlot.py -x Oska$VERSION -y AOM-5-1f  --dotplot-options='--bed1=~/OSKA_superscaffolding/oskaV2.bed'
-
-
+do
+  sbatch mkDotPlot.py -x Oska$VERSION -y $genome --dotplot-options="--bed1=/work/LuscombeU/Oikopleura/Genomes/Oska$VERSION/oskaV2.bed"
+done
