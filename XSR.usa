@@ -1,7 +1,7 @@
-fasta::/work/LuscombeU/Oikopleura/Genomes/OSKA2016/OSKA2016.fa:S10
-fasta::/work/LuscombeU/Oikopleura/Genomes/OSKA2016/OSKA2016.fa:S9
-fasta::/work/LuscombeU/Oikopleura/Genomes/OSKA2016/OSKA2016.fa:S32
-fasta::/work/LuscombeU/Oikopleura/Genomes/OSKA2016/OSKA2016.fa:S84[::r]
-fasta::/work/LuscombeU/Oikopleura/Genomes/OSKA2016/OSKA2016.fa:S59
-fasta::/work/LuscombeU/Oikopleura/Genomes/OSKA2016/OSKA2016.fa:S8[::r]
-fasta::/work/LuscombeU/Oikopleura/Genomes/OSKA2016/OSKA2016.fa:S1
+fasta::OSKA2016.fa:S10
+fasta::OSKA2016.fa:S9
+fasta::OSKA2016.fa:S32
+fasta::OSKA2016.fa:S84[::r]
+fasta::OSKA2016.fa:S59
+fasta::OSKA2016.fa:S8[::r]
+fasta::OSKA2016.fa:S1
