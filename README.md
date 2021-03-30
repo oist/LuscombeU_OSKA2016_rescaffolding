@@ -40,3 +40,56 @@ starts with a telomere sequence, suggesting it is properly oriented.
 
     YSR: S63-, S71-, S68-, S48-, S55+, S42-, S65-, S87+, S86+, S78+, S110+, S62+, S39+, S26+, S47+, S64-
 
+
+Pseudo-autosomal region
+-----------------------
+
+### Long arm:
+
+3 consistent blocks:
+
+ - S13+, S70+, S52+
+ - S23-, S73+, S18-
+ - S2+
+
+In which order and orientation ??
+
+S2 appears to be connected to the 23 - 73 - 18 block.
+
+### Short arm
+
+Could S25 be close to centromere ?  Matching contig has pseudo telomeric sequences on some O3 assembly.
+
+TODO:  S2 on norway ... look at genetic map
+
+O9/O3 genomes... search for telomeres.
+
+
+Chr1
+----
+
+### Short arm
+
+S31 matches a contig starting with a telomere, and belongs to the short arm.
+
+Let's assume that chr1 starts with:
+
+   chr1_1: S31-, S51-, S38-, S85+, S61-, S44-, S109+, S37-
+
+Then there would be S6, but I do not manage to orient it.
+
+!!!!!!!!!!!!!!!! Let's put in arbitrary orientation at the moment !!!!!!!!!!!!!!!!!!
+
+## Lont arm
+
+S3 matches a contig starting with a telomere.  Oh no, it also contains a centromere as it matches the left and right arm at the same time.
+
+There is good support that S5+ is followed by S7- but what is the orientation of the whole ?
+
+Provisionally, let's use S6+ S3+ S5+ S7-
+ 
+
+Chr2
+----
+
+S20 matches a contig starting with a telomere.
