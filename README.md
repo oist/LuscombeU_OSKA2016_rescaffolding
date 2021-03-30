@@ -25,3 +25,18 @@ of support from Flye assembly.
 
 Thus, the XSR superscaffold above appears to be the best we can produce, and is
 properly oriented.
+
+
+Y-specific region
+-----------------
+
+It appears that this regions accumulates variations at such a fast rate that O9
+and O3 do not fully agree on how to rescaffold OSKA2016, and OSK42 and AOM
+individuals are clearly different.
+
+Let's arbitrarly use O3-3f as a reference for superscaffolding now.  This is the
+individual that was used in the OSKA2016 genome paper.  O3-3f's contig_4
+starts with a telomere sequence, suggesting it is properly oriented.
+
+    YSR: S63-, S71-, S68-, S48-, S55+, S42-, S65-, S87+, S86+, S78+, S110+, S62+, S39+, S26+, S47+, S64-
+
