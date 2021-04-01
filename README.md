@@ -76,13 +76,13 @@ Let's assume that chr1 starts with:
 
    chr1_1: S31-, S51-, S38-, S85+, S61-, S44-, S109+, S37-
 
-Then there would be S6, but I do not manage to orient it.
+Then there is S6, with unkonwn orientation.  Therefore S6+ was arbitrarly chosen.
 
-!!!!!!!!!!!!!!!! Let's put in arbitrary orientation at the moment !!!!!!!!!!!!!!!!!!
+## Long arm
 
-## Lont arm
-
-S3 matches a contig starting with a telomere.  Oh no, it also contains a centromere as it matches the left and right arm at the same time.
+S3 matches a contig starting with a telomere.  But it also crosses a centromere
+as it matches the left and right arm at the same time.  Unless it is a
+missasembly.
 
 There is good support that S5+ is followed by S7- but what is the orientation of the whole ?
 
@@ -92,4 +92,13 @@ Provisionally, let's use S6+ S3+ S5+ S7-
 Chr2
 ----
 
-S20 matches a contig starting with a telomere.
+Multiple Nanopore assemblies have a contig that starts (when properly oriented)
+with a telomere and then matches S82.
+
+    chr2 short arm: S82-, S30+, S15-, S50-, S41+, S17+, S16-, S20+
+
+Luckily, O33f's scaffold 2 is the whole long arm of Chr2.
+And S4's tail aligns to a contig ending with a telomere !
+Dead end on the other side.
+
+    chr2 long arm: S14-, S90-, S22-, S35+, S118+, S46+, S102-, S72-, S104+, S40+, S27+, S75-, S24-, S19+, S101+, S4-
