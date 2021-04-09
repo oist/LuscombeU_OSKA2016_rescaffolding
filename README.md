@@ -44,25 +44,30 @@ starts with a telomere sequence, suggesting it is properly oriented.
 Pseudo-autosomal region
 -----------------------
 
+### Short arm (provisional)
+
+Orientation unknown, probably contains errors, and original scaffolds also probably
+contain misassemblies.
+
+S29+, S49-, S33+, S80-, S119+, S93+, S43+, S128+, S83+, S57-, S56+, S45+, S117-, S88+, S92-, S21+, S12+, S79+, S89+, S53+, S54-, S11-, S74+, S25-
+
+
+
 ### Long arm:
+
+S13 matches telomeric contigs in assemblies and is colinear to S70 and S52.
+
+
+S52-, S70-, S13-
 
 3 consistent blocks:
 
  - S13+, S70+, S52+
- - S23-, S73+, S18-
- - S2+
+ - S23-, S73+, S18-, S2+
 
 In which order and orientation ??
 
 S2 appears to be connected to the 23 - 73 - 18 block.
-
-### Short arm
-
-Could S25 be close to centromere ?  Matching contig has pseudo telomeric sequences on some O3 assembly.
-
-TODO:  S2 on norway ... look at genetic map
-
-O9/O3 genomes... search for telomeres.
 
 
 Chr1
