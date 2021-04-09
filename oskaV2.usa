@@ -3,7 +3,6 @@ Chr2.fa
 PAR.fa
 XSR.fa
 YSR.fa
-fasta::OSKA2016.fa:S34
 fasta::OSKA2016.fa:S58
 fasta::OSKA2016.fa:S60
 fasta::OSKA2016.fa:S66
@@ -13,7 +12,6 @@ fasta::OSKA2016.fa:S76
 fasta::OSKA2016.fa:S77
 fasta::OSKA2016.fa:S81
 fasta::OSKA2016.fa:S91
-fasta::OSKA2016.fa:S94
 fasta::OSKA2016.fa:S95
 fasta::OSKA2016.fa:S96
 fasta::OSKA2016.fa:S97

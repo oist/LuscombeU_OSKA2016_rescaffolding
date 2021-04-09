@@ -57,18 +57,7 @@ S29+, S49-, S33+, S80-, S119+, S93+, S43+, S128+, S83+, S57-, S56+, S45+, S117-,
 
 S13 matches telomeric contigs in assemblies and is colinear to S70 and S52.
 
-
-S52-, S70-, S13-
-
-3 consistent blocks:
-
- - S13+, S70+, S52+
- - S23-, S73+, S18-, S2+
-
-In which order and orientation ??
-
-S2 appears to be connected to the 23 - 73 - 18 block.
-
+ - S2-, S18+, S73-, S23+, S52-, S70-, S13-
 
 Chr1
 ----
