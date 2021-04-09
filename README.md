@@ -72,6 +72,12 @@ Let's assume that chr1 starts with:
 
 Then there is S6, with unkonwn orientation.  Therefore S6+ was arbitrarly chosen.
 
+S36+ S76+ S58+ are associated with S6 with unknown confidence except that they are part
+of this arm.  Added in arbitrary position.
+
+Also, S28 belongs to this arm, but is not well aligning to the Nanopore assemblies
+and I can not place it correctly.  Added arbitrarly between S37 and S36.
+
 ## Long arm
 
 S3 matches a contig starting with a telomere.  But it also crosses a centromere
@@ -96,3 +102,16 @@ And S4's tail aligns to a contig ending with a telomere !
 Dead end on the other side.
 
     chr2 long arm: S14-, S90-, S22-, S35+, S118+, S46+, S102-, S72-, S104+, S40+, S27+, S75-, S24-, S19+, S101+, S4-
+
+## Controls
+
+```
+# No contig of OSKA2016.usa is not found in oskaV2
+grep OSKA201 XSR.usa YSR.usa PAR.usa Chr1.usa Chr2.usa oskaV2.usa | sed -e 's/\[.*//g' -e 's/.*fasta//g' -e 's/$/(\[::r])?$/' | grep -Evf - OSKA2016.usa
+
+# No contig of OSKA2016.usa is not used in oskaV2
+cat OSKA2016.usa | sed -e 's/\[.*//g' -e 's/.*fasta//g' -e 's/$/(\[::r])?$/' | grep -Evf -  XSR.usa YSR.usa PAR.usa Chr1.usa Chr2.usa oskaV2.usa
+
+# Check that no contig is used twice !
+
+```
