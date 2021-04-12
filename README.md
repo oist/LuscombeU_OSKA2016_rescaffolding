@@ -106,12 +106,15 @@ Dead end on the other side.
 ## Controls
 
 ```
+OSKA_V2_USAs='XSR.usa YSR.usa PAR.usa Chr1.usa Chr2.usa oskaV2.usa'
+
 # No contig of OSKA2016.usa is not found in oskaV2
-grep OSKA201 XSR.usa YSR.usa PAR.usa Chr1.usa Chr2.usa oskaV2.usa | sed -e 's/\[.*//g' -e 's/.*fasta//g' -e 's/$/(\[::r])?$/' | grep -Evf - OSKA2016.usa
+grep OSKA201 $OSKA_V2_USAs | sed -e 's/\[.*//g' -e 's/.*fasta//g' -e 's/$/(\\[::r])?$/' | grep -Evf - OSKA2016.usa
 
 # No contig of OSKA2016.usa is not used in oskaV2
-cat OSKA2016.usa | sed -e 's/\[.*//g' -e 's/.*fasta//g' -e 's/$/(\[::r])?$/' | grep -Evf -  XSR.usa YSR.usa PAR.usa Chr1.usa Chr2.usa oskaV2.usa
+cat OSKA2016.usa | sed -e 's/\[.*//g' -e 's/.*fasta//g' -e 's/$/(\\[::r])?$/' | grep -Evf - $OSKA_V2_USAs
 
 # Check that no contig is used twice !
-
+grep fasta $OSKA_V2_USAs | wc -l   # Should be 576
+cat $OSKA_V2_USAs  | grep fasta | sed 's/\[.*//'| sort | uniq --repeated  # Should not return anything.
 ```
