@@ -8,9 +8,10 @@ This region is easy to assemble with Nanopore sequences from males as they have
 only a single copy of it.
 
 Pairwise alignments to assemblies of the O9, O3, OSK42 and AOM-5 all support
-the following arrangement:
+the following arrangement until S1.  S66- is added after S1 after more
+detailed inspection (support in at least O3-3f.
 
-    XSR: S10+, S9+, S32+, S84-, S59+, S8-, S1+
+    XSR: S10+, S9+, S32+, S84-, S59+, S8-, S1+, S66-
 
 Some assemblies have telomeric sequences at the beginning of their XSR contig
 before the matches with S10.
@@ -101,7 +102,7 @@ Luckily, O33f's scaffold 2 is the whole long arm of Chr2.
 And S4's tail aligns to a contig ending with a telomere !
 Dead end on the other side.
 
-    chr2 long arm: S14-, S90-, S22-, S35+, S118+, S46+, S102-, S72-, S104+, S40+, S27+, S75-, S24-, S19+, S101+, S4-
+    chr2 long arm: S60-, S14-, S90-, S22-, S35+, S118+, S46+, S102-, S72-, S104+, S40+, S27+, S75-, S24-, S19+, S101+, S4-
 
 ## Controls
 
