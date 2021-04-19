@@ -24,7 +24,7 @@ do
   mkFASTA   $chr
 done
 
-VERSION=V16
+VERSION=V1.9
 
 srun -pshort seqret @oskaV2.usa Oska$VERSION.fa
 
