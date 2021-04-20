@@ -69,7 +69,7 @@ S31 matches a contig starting with a telomere, and belongs to the short arm.
 
 Let's assume that chr1 starts with:
 
-   chr1_1: S31-, S51-, S38-, S85+, S61-, S44-, S109+, S37-
+    S31-, S51-, S38-, S85+, S61-, S44-, S109+, S37-
 
 Then there is S6, with unkonwn orientation.  Therefore S6+ was arbitrarly chosen.
 
@@ -78,6 +78,8 @@ of this arm.  Added in arbitrary position.
 
 Also, S28 belongs to this arm, but is not well aligning to the Nanopore assemblies
 and I can not place it correctly.  Added arbitrarly between S37 and S36.
+
+   chr1 short arm: S31-, S51-, S38-, S85+, S61-, S44-, S109+, S37-, S28+, S36+, S76, S58+, S6+
 
 ## Long arm
 
