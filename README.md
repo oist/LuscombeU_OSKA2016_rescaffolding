@@ -58,7 +58,7 @@ S29+, S49-, S33+, S80-, S119+, S93+, S43+, S128+, S83+, S57-, S56+, S45+, S117-,
 
 S13 matches telomeric contigs in assemblies and is colinear to S70 and S52.
 
- - S2-, S18+, S73-, S23+, S52-, S70-, S13-
+ - S34-, S94-, S2-, S18+, S73-, S23+, S52-, S70-, S13-
 
 Chr1
 ----
