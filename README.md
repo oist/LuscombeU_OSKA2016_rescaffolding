@@ -121,3 +121,7 @@ cat OSKA2016.usa | sed -e 's/\[.*//g' -e 's/.*fasta//g' -e 's/$/(\\[::r])?$/' | 
 grep fasta $OSKA_V2_USAs | wc -l   # Should be 576
 cat $OSKA_V2_USAs  | grep fasta | sed 's/\[.*//'| sort | uniq --repeated  # Should not return anything.
 ```
+
+## Softmasking
+Genomes were masked for repeats using https://github.com/oist/LuscombeU_stlrepeatmask/tree/main v1.0.0
+softmasked genomes are denoted by the suffix `.softmasked.fa`
